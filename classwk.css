@@ -4,6 +4,15 @@
     
 }
 
+.subjet{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
 .cardcontainer{
     margin: auto;
     text-align: center;
@@ -16,18 +25,6 @@
     gap: 20px;
     background-color: blue;
 }
-
-.subjet{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: blue;
-}
-
-
-
 
 
 .pnames1{
