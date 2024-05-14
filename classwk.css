@@ -4,15 +4,6 @@
     
 }
 
-.subjet{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: blue;
-}
-
 .cardcontainer{
     margin: auto;
     text-align: center;
@@ -24,6 +15,16 @@
     border: 1px solid brown;
     gap: 20px;
     background-color: blue;
+}
+
+
+.subjet{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: blue;
 }
 
 
