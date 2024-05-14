@@ -4,6 +4,16 @@
     
 }
 
+.subjet{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+
 .cardcontainer{
     margin: auto;
     text-align: center;
@@ -18,14 +28,7 @@
 }
 
 
-.subjet{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: blue;
-}
+
 
 
 .pnames1{
