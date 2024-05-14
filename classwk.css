@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.subjet{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.cardcontainer{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    border: 1px solid brown;
+    gap: 20px;
+    background-color: blue;
+}
+
+
+.pnames1{
+    height: 400px;
+    background-image: url(./heart.png),url(./number-2-34161.png),url(./heart.png),url(./upsidedown2.png),url(./heartoffside.png),url(./heartoffside.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position:  15px 40px,20px 10px,100px 50px,220px 370px,215px 342px,100px 280px;
+    background-size: 25px,15px,60px,15px,25px,60px;
+    border: 1px solid blue;
+    width: 250px;
+    background-color: white;
+}
+
+.pnames2{
+    height: 400px;
+    background-image: url(./ace.png),url(./A.png),url(./ace.png),url(./Adown.png),url(./acedown.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 15px 40px,16px 10px,center,220px 370px,220px 342px;
+    background-size: 25px,25px,80px,25px,25px;
+    border: 1px solid blue;
+    width: 250px;
+    background-color: white;
+}
+
+.pnames3{
+    height: 400px;
+    background-image: url(./ace.png),url(./A.png),url(./heart.png),url(./Adown.png),url(./acedown.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 15px 40px,16px 10px,center,220px 370px,220px 342px;
+    background-size: 25px,25px,80px,25px,25px;
+    border: 1px solid blue;
+    width: 250px;
+    background-color: white;
+    
+}
+
+.pnames4{
+    height: 400px;
+    background-image: url(./ace.png),url(./A.png),url(./ace.png),url(./Adown.png),url(./acedown.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 15px 40px,16px 10px,center,220px 370px,220px 342px;
+    background-size: 25px,25px,80px,25px,25px;
+    border: 1px solid blue;
+    width: 250px;
+    background-color: white;
+    
+
+}
+
+.pnames5{
+    height: 400px;
+    background-image: url(./heart.png),url(./number-2-34161.png),url(./heart.png),url(./upsidedown2.png),url(./heartoffside.png),url(./heartoffside.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position:  15px 40px,20px 10px,100px 50px,220px 370px,215px 342px,100px 280px;
+    background-size: 25px,15px,60px,15px,25px,60px;
+    border: 1px solid blue;
+    width: 250px;
+    background-color: white;
+
+   
+
+}
