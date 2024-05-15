@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+/* css reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* header styles */
+header{
+    background: #333;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.logo h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+nav a{
+    color: #f4f4f4;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    gap: 10rem;
+}
+
+/* display: inline-block */
+
+.hero{
+    position: relative;
+    height: calc(100vh - 94px);
+    background: url(./images/WhatsApp\ Image\ 2024-05-15\ at\ 12.59.09_ff4e8600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* background: url(./images/WhatsApp\ Image\ 2024-05-15\ at\ 12.59.08_e9007311.jpg) center center/cover no repeat; */
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4) ;
+}

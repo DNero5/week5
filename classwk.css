@@ -24,6 +24,7 @@
     border: 1px solid brown;
     gap: 20px;
     background-color: blue;
+    flex: wrap;
 }
 
 
