@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Jacquard+24+Charted&family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+  font-size: 10px;
+  background: url(./webbs.webp);
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Courgette';
+  }
+  .maincontainer{
+    height: 1000px;
+    width: 600px;
+    border: 2px solid blue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(118, 130, 132, 0.695);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .headcontainer{
+    height: 40px;
+    width: 250px;
+    border: 2px rgb(17, 17, 181) solid;
+    background-color: beige;
+    margin-top: 10px;
+    margin-left: 165px;
+    padding-left: 37px;
+    padding-top: 9px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Courgette' serif;
+  }
+  .img{
+     height: 400px;
+     width: 400px;
+     border: 2px solid blue;
+     margin-top: 8px;
+     margin-left: 90px;
+     background: url(./Antilles-Nov-20213.jpg) center center/cover no-repeat;
+     display: flex;
+     flex-direction: column;
+     border-radius: 10px;
+  }
+  .content{
+    height: 500px;
+    width: 500px;
+    border: 2px solid blue;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .evian1{
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 5px;
+    background-color: beige;
+  }
+  .evian2{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .evian3{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .evian4{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .evian5{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .evian6{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .evian7{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    background-color: beige;
+  }
+  .shalli{
+    color: blue;
+  }
+
