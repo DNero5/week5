@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24+Charted&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    background:url(./images/cover_polo-7-1.jpg) center center/cover no-repeat;
+    background-color: black;
+    height: calc(100vh);
+}
+
+a{
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Roboto Slab', serif;
+  }
+/* header start */
+header{
+  width: 500px;
+  height: 250px;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 7.5rem;
+  flex-direction: column;
+  font-family: 'dancing script' ;
+  margin-left: 6px;
+  margin-top: 100px;
+}
+  .specialText1{
+    color: blue;
+  }
+  .specialText2{
+    color:red;
+  }
+  .specialText3{
+    color: pink;
+  }
+  .bigname h2{
+    padding-top: 10px;
+    padding-left: 140px;
+    font-size: 2.5rem;
+    color: red;
+  }
+  .bigname h1{
+    color: blue;
+    font-size: 2.5rem;
+    background-color: rgba(55, 47, 47, 0.13);
+  }
+.bigname h3{
+   width: 500px;
+   height: 50px;
+   font-size: 2.5rem;
+   color: blue;
+   padding-left: 50px;
+}
+.button{
+  width: 520px;
+  height: 120px;
+  font-size: 2.5rem;
+  color: blue;
+  margin-left: 180px;
+  margin-top: 50px;
+  border-radius: 2px;
+}
+.button:hover{
+  background-color: rgb(247, 192, 138);
+  color: #333;
+}
+
