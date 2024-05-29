@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Jacquard+24+Charted&family=Roboto+Slab:wght@100..900&family=Salsa&family=Sriracha&family=Teko:wght@300..700&display=swap');
+
+/* html default setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul,ol{
+    list-style: none;
+  }
+  body{
+    font-family: 'Sriracha' , serif;
+  }
+  /* end of html default setting */
+
+  /* header section */
+  
+  header{
+    background-color: #262227;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    font-family: 'salsa' serif;
+  }
+  /* logo section */
+  .logo h2{  
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .special1{
+    height: 20px;
+    width: 30px;
+    background-color: green;
+    border-radius: 100%;
+  }
+  .special2{
+    color: green;
+  }
+  /* end of logo section */
+  
+  /* begining of navbar section */
+
+  nav a{
+    color: #f4f4f4;
+    font-size: 2rem;
+    border-right: 5px solid #3ac153;
+  }
+  ul{
+    display: flex;
+    gap: 10rem;
+  }
+   /* end of navbar section */
+
+   /* begining of content of section */
+  .content{
+    background-color: #262227;
+    position: relative;
+    height: calc(100vh - 95px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+  }
+.bigimg {
+  background-color: #3ac153;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background: url(./images/my\ al.jpg )  center/cover no-repeat;
+}
+.subject{
+  width: 35%;
+  height: 50%;
+  /* background-color: #3ac153; */
+  font-size: 3rem;
+  color: #f4f4f4;
+  margin-left: 10px;
+}
+.special3{
+  color: #3ac153;
+}
+.special4{
+  color: #3ac153;
+}
+.mylinks img{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+ /* end of content of section */
+/* begining of evian section */
+.evian{
+  display: flex;
+  height: calc(30vh - 94px);
+  /* background-color: blueviolet; */
+  text-align: center;
+  flex-direction: row;
+}
+.icon1{
+  height: 90%;
+  width: 33%;
+  justify-items: center;
+  background-color: aliceblue;
+  margin-left: 5px;
+  border-radius: 2lvh;
+  cursor: pointer;
+  margin-top: 7px;
+}
+.icon1:hover{
+  background-color: rgb(247, 192, 138);
+  color: #333;
+}
+.fa-envelope{
+  font-size: 80px;
+}
+.icon2{
+  height: 90%;
+  width: 33%;
+  justify-items: center;
+  background-color: aliceblue;
+  margin-left: 5px;
+  border-radius: 2lvh;
+  cursor: pointer;
+   margin-top: 7px;
+}
+.icon2:hover{
+  background-color: rgb(247, 192, 138);
+  color: #333;
+}
+.fa-github{
+  font-size: 80px;
+}
+h5{
+  font-size: 20px;
+}
+.icon3{
+  height: 90%;
+  width: 33%;
+  justify-items: center;
+  background-color: aliceblue;
+  margin-left: 5px;
+  border-radius: 2lvh;
+  cursor: pointer;
+   margin-top: 7px;
+}
+.icon3:hover{
+  background-color: rgb(247, 192, 138);
+  color: #333;
+}
+.fa-phone-volume{
+  font-size: 80px;
+}
+/* end of evian of section */
+
+/* beginning of footer section */
+
+.footer{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff;
+}
+
+
+
+
+
+   
